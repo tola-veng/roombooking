@@ -1,0 +1,76 @@
+/* customised css to overwrite the bootstrap css */
+
+/*
+File Name: customStyles.css
+Author: Janet Bott
+Date Created: 4 May 2015
+Last Updated:
+Description: CSS external screen stylesheet for exercises
+*/
+
+body {
+  font-family: arial, sans-serif;
+  background-color: #666666
+}
+
+/* Web Site Header */
+header {
+  margin-top: 2px;
+  padding: 10px 20px;
+  color: #666666;
+  background-color: #E0E0E0;
+  border-bottom: dotted 1px black;
+}
+
+/* Navigation */
+nav#nav-main{
+}
+
+/* Content */
+#content {
+  background-color: #F9F9F9;
+  padding: 20px 20px;
+  min-height: 550px;
+}
+#message-bar{
+  padding: 8px;
+  margin: 8px;
+  color: #000000;
+  background: #DDDDDD;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 0.8em;
+  display: none;
+}
+#message-bar.success{
+  border: 1px solid #00FF00;
+  background: #BBFFBB;
+  color: #009900;
+}
+#message-bar.error{
+  border: 1px solid #FF0000;
+  background: #FFBBBB;
+  color: #990000;
+}
+#header-heading{
+	display : block;
+	float : left;
+}
+.link-loginout{
+	display : block;
+	float : right;
+	text-decoration : none;
+}
+.link-loginout:link, .link-loginout:active, .link-loginout:visited, .link-loginout:hover{
+	text-decoration : none;
+}
+
+/* Footer */
+footer {
+  padding: 10px 20px;
+  font-size: 10pt;
+  background-color: #E0E0E0;
+  border-top: dotted 1px black;
+  color: #333333;
+}
