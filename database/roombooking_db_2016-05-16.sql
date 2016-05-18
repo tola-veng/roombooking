@@ -116,7 +116,7 @@ CREATE TABLE `tb_user` (
   `lastname` varchar(32) NOT NULL DEFAULT '',
   `email` varchar(64) DEFAULT '',
   `phone` varchar(16) DEFAULT NULL,
-  `verify_code` varchar(32) DEFAULT NULL,
+  `verify_code` varchar(6) DEFAULT NULL,
   `verified` tinyint(1) DEFAULT NULL,
   `blocked` tinyint(1) DEFAULT NULL,
   `attempted` tinyint(1) DEFAULT NULL,
